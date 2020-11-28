@@ -1,0 +1,66 @@
+﻿@model OnlineStore.Web.ViewModels.RegisterVM
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_LayoutNoMenu.cshtml";
+}
+
+<div class="m-login__signin">
+    <div class="m-login__head">
+        <h3 class="m-login__title">
+            Register
+        </h3>
+    </div>
+
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @*@Html.Label("User Name", htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <div class="col-md-10 col-md-offset-2">
+                    @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control", @placeHolder = "UserName" } })
+                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.Label("Email", htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <div class="col-md-10 col-md-offset-2">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @placeHolder = "Email" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.Label("Password", htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <div class="col-md-10 col-md-offset-2">
+                    @Html.PasswordFor(model => model.Password, htmlAttributes: new { @class = "form-control", @placeHolder = "Password" })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                @*@Html.Label("Confirm Password", htmlAttributes: new { @class = "control-label col-md-2" })*@
+                <div class="col-md-10 col-md-offset-2">
+                    @Html.PasswordFor(model => model.ConfirmPassword, htmlAttributes: new { @class = "form-control", @placeHolder = "Confirm Password" })
+                    @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-lg btn-primary btn-block" />
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div style="margin-top:20px;">
+    @Html.ActionLink("Login", "Login", "Account")
+</div>

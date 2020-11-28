@@ -1,0 +1,9 @@
+D:\Work\Civilsoft\SQRC\Project\Project.Domain\bin\Debug\Project.Domain.dll
+D:\Work\Civilsoft\SQRC\Project\Project.Domain\bin\Debug\Project.Domain.pdb
+D:\Work\Civilsoft\SQRC\Project\Project.Domain\obj\Debug\Project.Domain.dll
+D:\Work\Civilsoft\SQRC\Project\Project.Domain\obj\Debug\Project.Domain.pdb
+C:\Users\mohst\OneDrive\Desktop\Project\Project.Domain\bin\Debug\Project.Domain.dll
+C:\Users\mohst\OneDrive\Desktop\Project\Project.Domain\bin\Debug\Project.Domain.pdb
+C:\Users\mohst\OneDrive\Desktop\Project\Project.Domain\obj\Debug\Project.Domain.csprojAssemblyReference.cache
+C:\Users\mohst\OneDrive\Desktop\Project\Project.Domain\obj\Debug\Project.Domain.dll
+C:\Users\mohst\OneDrive\Desktop\Project\Project.Domain\obj\Debug\Project.Domain.pdb

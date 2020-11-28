@@ -1,0 +1,40 @@
+﻿@model OnlineStore.Application.Products.ProductDTO
+
+<tr>
+    <input type="hidden" id="hdnProductId" value="@Model.ProductId" />
+    @Html.HiddenFor(modelItem => Model.ProductId)
+    
+    <td>
+        @Html.DisplayFor(modelItem => Model.ProductName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.Price)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => Model.ProductDesc)
+    </td>
+    <td>
+        @*<input type="button" value="Add" onclick="AddItemToCart()" class="btn btn-primary" />*@
+        @Html.ActionLink("Add", "AddToUserCart", "Cart", new { ProductId = Model.ProductId }, null) @*|
+        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+    </td>
+</tr>
+
+<script>
+    //function AddItemToCart() {
+    //    debugger;
+    //    var productId = $("#hdnProductId").val();
+    //    $.ajax({
+    //        url: '~/Cart/AddToUserCart?ProductId=' + productId,
+    //        type: 'GET',
+    //        async: true,
+    //        dataType:'application/json',
+    //        success: function (response) {
+
+    //        },
+    //        error: function (error) {
+    //        }
+    //    });
+    //}
+</script>

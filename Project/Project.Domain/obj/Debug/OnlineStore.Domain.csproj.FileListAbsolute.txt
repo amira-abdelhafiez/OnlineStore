@@ -1,0 +1,12 @@
+E:\Project\Project.Domain\bin\Debug\Project.Domain.dll
+E:\Project\Project.Domain\bin\Debug\Project.Domain.pdb
+E:\Project\Project.Domain\obj\Debug\OnlineStore.Domain.csproj.CoreCompileInputs.cache
+E:\Project\Project.Domain\obj\Debug\Project.Domain.dll
+E:\Project\Project.Domain\obj\Debug\Project.Domain.pdb
+E:\Project\Project.Domain\obj\Debug\OnlineStore.Domain.csprojAssemblyReference.cache
+E:\OnlineStore\OnlineStore\Project\Project.Domain\bin\Debug\Project.Domain.dll
+E:\OnlineStore\OnlineStore\Project\Project.Domain\bin\Debug\Project.Domain.pdb
+E:\OnlineStore\OnlineStore\Project\Project.Domain\obj\Debug\OnlineStore.Domain.csprojAssemblyReference.cache
+E:\OnlineStore\OnlineStore\Project\Project.Domain\obj\Debug\OnlineStore.Domain.csproj.CoreCompileInputs.cache
+E:\OnlineStore\OnlineStore\Project\Project.Domain\obj\Debug\Project.Domain.dll
+E:\OnlineStore\OnlineStore\Project\Project.Domain\obj\Debug\Project.Domain.pdb
